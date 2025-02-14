@@ -13,6 +13,7 @@ body {
 }
 
 .container {
+  padding: 5px;
   text-align: center;
   position: relative;
 }
@@ -40,19 +41,19 @@ body {
 }
 
 .gif {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
 }
 
 .gif.big {
-  transform: scale(2);
+  transform: scale(1.7);
 }
 
 .buttons {
-  margin-top: 20px;
+  margin-top: 70px;
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -81,17 +82,17 @@ button {
 .message {
   font-size: 1.5rem;
   color: white;
-  margin-top: 20px;
+  margin-top: 50px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   transition: opacity 0.3s ease-in-out;
 }
 
 /* Ajuste para evitar que el GIF final tape el mensaje */
 .final-message {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #ffeb3b;
   font-weight: bold;
-  margin-top: 40px;
+  margin-top: 60px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
