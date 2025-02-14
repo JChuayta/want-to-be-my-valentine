@@ -1,16 +1,16 @@
 {
   "name": "want-to-be-my-valentine",
-  "homepage": "https://jchuayta.github.io/want-to-be-my-valentine/",
+  "homepage": "https://jchuayta.github.io/want-to-be-my-valentine",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build --base=/want-to-be-my-valentine/",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist",
   },
   "dependencies": {
     "react": "^19.0.0",
