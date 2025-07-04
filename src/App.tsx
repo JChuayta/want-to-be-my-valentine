@@ -3,7 +3,7 @@ import "./App.css";
 import { GifDisplay, MessageDisplay } from "./components/GiftDisplay";
 import { HeartsOverlay } from "./components/HeartsOverlay";
 import { useHearts } from "./hooks/useHearts";
-import { bubuDuduGifs } from "./utils/gitfts";
+import { bubuDuduGifs } from "./utils/gifts";
 import { messages } from "./utils/messages";
 
 const getRandomIndex = (length: number, excludeIndices: number[] = []) => {
